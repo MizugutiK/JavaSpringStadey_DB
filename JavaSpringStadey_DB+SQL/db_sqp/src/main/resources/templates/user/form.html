@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Add User</title>
+</head>
+
+<body>
+    <h1>新規ユーザー登録</h1>
+    <form th:action="@{/users}" th:object="${user}" method="post">
+        名前: <input type="text" th:field="*{name}" /><br>
+        メール: <input type="email" th:field="*{email}" /><br>
+        <button type="submit">保存</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+com\example\db_sqp\DbSqpApplication.class
+com\example\db_sqp\model\NewEntity.class
+com\example\db_sqp\mapper\NewEntityMapper.class
+com\example\db_sqp\service\NewEntityService.class
+com\example\db_sqp\controller\TestController.class
